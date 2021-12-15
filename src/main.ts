@@ -1,4 +1,4 @@
-import helloWorld from './foo/foo.js';
+import helloWorld from './foo/foo';
 
 // To support acquisition of dynamically imported tiptap extension (and the editor)
 import { AnyExtension, Editor } from '@tiptap/core';
