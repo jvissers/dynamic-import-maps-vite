@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+    <link rel="stylesheet" href="//unpkg.com/@highlightjs/cdn-assets@11.3.1/styles/default.min.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "@tiptap/core": "/js/@tiptap/core/dist/tiptap-core.esm.js",
+          "prosemirror-state": "/js/prosemirror-state/dist/index.es.js",
+          "prosemirror-transform": "/js/prosemirror-transform/dist/index.es.js",
+          "prosemirror-commands": "/js/prosemirror-commands/dist/index.es.js",
+          "prosemirror-model": "/js/prosemirror-model/dist/index.es.js",
+          "orderedmap": "/js/orderedmap/index.es.js",
+          "prosemirror-schema-list": "/js/prosemirror-schema-list/dist/index.es.js",
+          "prosemirror-view": "/js/prosemirror-view/dist/index.es.js",
+          "prosemirror-keymap": "/js/prosemirror-keymap/dist/index.es.js",
+          "w3c-keyname": "/js/w3c-keyname/index.es.js",
+          "@tiptap/extension-document": "/js/@tiptap/extension-document/dist/tiptap-extension-document.esm.js",
+          "@tiptap/extension-paragraph": "/js/@tiptap/extension-paragraph/dist/tiptap-extension-paragraph.esm.js",
+          "@tiptap/extension-text": "/js/@tiptap/extension-text/dist/tiptap-extension-text.esm.js"
+        }
+      }
+    </script>
+    <style>
+      #editor {
+        border: dashed 1px coral;
+      }
+      #vue {
+        border: dashed 1px burlywood;
+      }
+      pre {
+        border: dashed 1px goldenrod;
+      }
+    </style>
+    <title>TS, dynamic import & importmap</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <h5>tiptap Editor area (edit it)</h5>
+    <div id="editor"></div>
+    <hr />
+    <h5>Vue Component Check (click it)</h5>
+    <div id="vue"></div>
+    <hr />
+    <h5>Active Content Model (watch it)</h5>
+    <pre>
+      <code class="language-json"></code>
+    </pre>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "@tangelo/dynamic",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc && vite build",
+    "clean": "rimraf ./dist && rimraf ./tsconfig.tsbuildinfo",
+    "copy": "copyfiles -V ./dist/extension-introduction.esm.js ../../remote-extensions/extension-introduction"
+  },
+  "files": [
+    "dist"
+  ],
+  "module": "./dist/extension-introduction.esm.js",
+  "exports": {
+    ".": {
+      "import": "./dist/extension-introduction.esm.js"
+    }
+  },
+  "devDependencies": {
+    "@tiptap/core": "^2.0.0-beta.151",
+    "copyfiles": "^2.4.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.5.3",
+    "vite": "^2.7.1"
+  }
+}
