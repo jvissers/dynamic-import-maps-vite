@@ -3,3 +3,9 @@ node_modules
 dist
 dist-ssr
 *.local
+src/main.js
+src/main.js.map
+src/utils/useContentModel.js.map
+src/utils/useContentModel.js
+src/foo/foo.js.map
+src/foo/foo.js
