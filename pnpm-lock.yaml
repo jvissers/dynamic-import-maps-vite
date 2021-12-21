@@ -2,12 +2,12 @@ lockfileVersion: 5.3
 
 specifiers:
   '@babel/types': ^7.16.0
-  '@tiptap/core': ^2.0.0-beta.156
+  '@tiptap/core': ^2.0.0-beta.158
   '@tiptap/extension-document': ^2.0.0-beta.15
   '@tiptap/extension-paragraph': ^2.0.0-beta.23
   '@tiptap/extension-text': ^2.0.0-beta.15
   '@vitejs/plugin-vue': ^1.10.2
-  concurrently: ^6.4.0
+  concurrently: ^6.5.1
   copyfiles: ^2.4.1
   htm: ^3.1.0
   live-server: ^1.2.1
@@ -21,18 +21,18 @@ specifiers:
   prosemirror-view: ^1.23.3
   rimraf: ^3.0.2
   typescript: ^4.5.4
-  vite: ^2.7.2
+  vite: ^2.7.4
   vue: ^3.2.26
   w3c-keyname: ^2.2.4
 
 devDependencies:
   '@babel/types': 7.16.0
-  '@tiptap/core': 2.0.0-beta.156
-  '@tiptap/extension-document': 2.0.0-beta.15_@tiptap+core@2.0.0-beta.156
-  '@tiptap/extension-paragraph': 2.0.0-beta.23_@tiptap+core@2.0.0-beta.156
-  '@tiptap/extension-text': 2.0.0-beta.15_@tiptap+core@2.0.0-beta.156
-  '@vitejs/plugin-vue': 1.10.2_vite@2.7.2
-  concurrently: 6.4.0
+  '@tiptap/core': 2.0.0-beta.158
+  '@tiptap/extension-document': 2.0.0-beta.15_@tiptap+core@2.0.0-beta.158
+  '@tiptap/extension-paragraph': 2.0.0-beta.23_@tiptap+core@2.0.0-beta.158
+  '@tiptap/extension-text': 2.0.0-beta.15_@tiptap+core@2.0.0-beta.158
+  '@vitejs/plugin-vue': 1.10.2_vite@2.7.4
+  concurrently: 6.5.1
   copyfiles: 2.4.1
   htm: 3.1.0
   live-server: 1.2.1
@@ -46,7 +46,7 @@ devDependencies:
   prosemirror-view: 1.23.3
   rimraf: 3.0.2
   typescript: 4.5.4
-  vite: 2.7.2
+  vite: 2.7.4
   vue: 3.2.26
   w3c-keyname: 2.2.4
 
@@ -71,8 +71,8 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@tiptap/core/2.0.0-beta.156:
-    resolution: {integrity: sha512-sOGOOBL6F4/h1GoyYqddfHG6XMqkpE9rf9gfvcbLikPRS5HUwOSGw3ivdcYyQxhRF/xTBowVDKxvp40zr0olww==}
+  /@tiptap/core/2.0.0-beta.158:
+    resolution: {integrity: sha512-hNyvL3Lnu0WqUxdTu29P5YxV48uXZXUCkVxQ2zT/ZRNx0PvX2ucs4F0I9QJsZK+PsPUkfKGNvj4NPCKooUv2gg==}
     dependencies:
       '@types/prosemirror-commands': 1.0.4
       '@types/prosemirror-keymap': 1.0.4
@@ -90,28 +90,28 @@ packages:
       prosemirror-view: 1.23.3
     dev: true
 
-  /@tiptap/extension-document/2.0.0-beta.15_@tiptap+core@2.0.0-beta.156:
+  /@tiptap/extension-document/2.0.0-beta.15_@tiptap+core@2.0.0-beta.158:
     resolution: {integrity: sha512-ypENC+xUYD5m2t+KOKNYqyXnanXd5fxyIyhR1qeEEwwQwMXGNrO3kCH6O4mIDCpy+/WqHvVay2tV5dVsXnvY8w==}
     peerDependencies:
       '@tiptap/core': ^2.0.0-beta.1
     dependencies:
-      '@tiptap/core': 2.0.0-beta.156
+      '@tiptap/core': 2.0.0-beta.158
     dev: true
 
-  /@tiptap/extension-paragraph/2.0.0-beta.23_@tiptap+core@2.0.0-beta.156:
+  /@tiptap/extension-paragraph/2.0.0-beta.23_@tiptap+core@2.0.0-beta.158:
     resolution: {integrity: sha512-VWAxyzecErYWk97Kv/Gkghh97zAQTcaVOisEnYYArZAlyYDaYM48qVssAC/vnRRynP2eQxb1EkppbAxE+bMHAA==}
     peerDependencies:
       '@tiptap/core': ^2.0.0-beta.1
     dependencies:
-      '@tiptap/core': 2.0.0-beta.156
+      '@tiptap/core': 2.0.0-beta.158
     dev: true
 
-  /@tiptap/extension-text/2.0.0-beta.15_@tiptap+core@2.0.0-beta.156:
+  /@tiptap/extension-text/2.0.0-beta.15_@tiptap+core@2.0.0-beta.158:
     resolution: {integrity: sha512-S3j2+HyV2gsXZP8Wg/HA+YVXQsZ3nrXgBM9HmGAxB0ESOO50l7LWfip0f3qcw1oRlh5H3iLPkA6/f7clD2/TFA==}
     peerDependencies:
       '@tiptap/core': ^2.0.0-beta.1
     dependencies:
-      '@tiptap/core': 2.0.0-beta.156
+      '@tiptap/core': 2.0.0-beta.158
     dev: true
 
   /@types/orderedmap/1.0.0:
@@ -171,13 +171,13 @@ packages:
       '@types/prosemirror-transform': 1.1.5
     dev: true
 
-  /@vitejs/plugin-vue/1.10.2_vite@2.7.2:
+  /@vitejs/plugin-vue/1.10.2_vite@2.7.4:
     resolution: {integrity: sha512-/QJ0Z9qfhAFtKRY+r57ziY4BSbGUTGsPRMpB/Ron3QPwBZM4OZAZHdTa4a8PafCwU5DTatXG8TMDoP8z+oDqJw==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: ^2.5.10
     dependencies:
-      vite: 2.7.2
+      vite: 2.7.4
     dev: true
 
   /@vue/compiler-core/3.2.26:
@@ -497,8 +497,8 @@ packages:
     resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
     dev: true
 
-  /concurrently/6.4.0:
-    resolution: {integrity: sha512-HZ3D0RTQMH3oS4gvtYj1P+NBc6PzE2McEra6yEFcQKrUQ9HvtTGU4Dbne083F034p+LRb7kWU0tPRNvSGs1UCQ==}
+  /concurrently/6.5.1:
+    resolution: {integrity: sha512-FlSwNpGjWQfRwPLXvJ/OgysbBxPkWpiVjy1042b0U7on7S7qwwMIILRj7WTN1mTgqa582bG6NFuScOoh6Zgdag==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     dependencies:
@@ -2008,8 +2008,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vite/2.7.2:
-    resolution: {integrity: sha512-wMffVVdKZRZP/HwW3yttKL8X+IJePz7bUcnGm0vqljffpVwHpjWC3duZtJQHAGvy+wrTjmwU7vkULpZ1dVXY6w==}
+  /vite/2.7.4:
+    resolution: {integrity: sha512-f+0426k9R/roz5mRNwJlQ+6UOnhCwIypJSbfgCmsVzVJe9jTTM5iRX2GWYUean+iqPBWaU/dYLryx9AoH2pmrw==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
