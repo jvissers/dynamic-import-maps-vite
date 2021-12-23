@@ -10,3 +10,8 @@ src/utils/useContentModel.js
 src/foo/foo.js.map
 src/foo/foo.js
 packages/extension-introduction/tsconfig.tsbuildinfo
+.idea/codeStyles/Project.xml
+.idea/codeStyles/codeStyleConfig.xml
+.idea/dynamic-import-maps-vite.iml
+.idea/modules.xml
+.idea/vcs.xml

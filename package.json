@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "copy": "copyfiles -V -f ./node_modules/w3c-keyname/index.es.js ./dist/js/w3c-keyname && copyfiles -V -f ./node_modules/orderedmap/index.es.js ./dist/js/orderedmap && copyfiles -V --up 1 ./node_modules/prosemirror*/dist/index.es.js ./dist/js && copyfiles -V --up 1 ./node_modules/@tiptap/*/dist/*.esm.js ./dist/js",
-    "clean": "rimraf ./dist && rimraf ./tsconfig.tsbuildinfo",
+    "build": "tsc ; vite build",
+    "copy": "copyfiles -V -f ./node_modules/w3c-keyname/index.es.js ./dist/js/w3c-keyname ; copyfiles -V -f ./node_modules/orderedmap/index.es.js ./dist/js/orderedmap ; copyfiles -V --up 1 ./node_modules/prosemirror*/dist/index.es.js ./dist/js ; copyfiles -V --up 1 ./node_modules/@tiptap/*/dist/*.esm.js ./dist/js",
+    "clean": "rimraf ./dist ; rimraf ./tsconfig.tsbuildinfo",
     "preview": "vite preview"
   },
   "devDependencies": {

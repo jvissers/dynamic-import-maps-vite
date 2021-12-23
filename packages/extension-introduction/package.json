@@ -2,8 +2,8 @@
   "name": "@tangelo/dynamic",
   "version": "1.0.0",
   "scripts": {
-    "build": "tsc && vite build",
-    "clean": "rimraf ./dist && rimraf ./tsconfig.tsbuildinfo",
+    "build": "tsc ; vite build",
+    "clean": "rimraf ./dist ; rimraf ./tsconfig.tsbuildinfo",
     "copy": "copyfiles -V ./dist/extension-introduction.esm.js ../../remote-extensions/extension-introduction"
   },
   "files": [

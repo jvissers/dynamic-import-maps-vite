@@ -28,7 +28,7 @@ createApp(App).mount('#vue');
 const editorSlot = document.querySelector<HTMLDivElement>('#editor')!;
 const extensions: AnyExtension[] = [Document, Paragraph, Text];
 let intro = 'remote-extensions/extension-introduction/dist/extension-introduction.esm.js';
-import(`http://127.0.0.1:5501/${intro}`).then((m) => {
+globalThis.importShim(`http://127.0.0.1:5501/${intro}`).then((m) => {
   extensions.push(m.default);
   new Editor({
     element: editorSlot,
